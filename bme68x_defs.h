@@ -1,5 +1,5 @@
 /**
-* Copyright (c) 2020 Bosch Sensortec GmbH. All rights reserved.
+* Copyright (c) 2023 Bosch Sensortec GmbH. All rights reserved.
 *
 * BSD-3-Clause
 *
@@ -31,8 +31,8 @@
 * POSSIBILITY OF SUCH DAMAGE.
 *
 * @file       bme68x_defs.h
-* @date       2021-04-23
-* @version    v4.4.5
+* @date       2023-02-07
+* @version    v4.4.8
 *
 */
 
@@ -104,10 +104,10 @@
 #define BME68X_PERIOD_RESET                       UINT32_C(10000)
 
 /* BME68X lower I2C address */
-#define BME68X_I2C_ADDR_LOW                       UINT8_C(0x76<<1)
+#define BME68X_I2C_ADDR_LOW                       UINT8_C(0x76)
 
 /* BME68X higher I2C address */
-#define BME68X_I2C_ADDR_HIGH                      UINT8_C(0x76<<1)
+#define BME68X_I2C_ADDR_HIGH                      UINT8_C(0x77)
 
 /* Soft reset command */
 #define BME68X_SOFT_RESET_CMD                     UINT8_C(0xb6)
